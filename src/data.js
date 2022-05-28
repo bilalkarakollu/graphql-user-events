@@ -1,4 +1,4 @@
-export const events = [
+const events = [
     {
         "id": 1,
         "title": "Poker night",
@@ -251,7 +251,7 @@ export const events = [
     }
 ];
 
-export const locations = [
+const locations = [
     {
         "id": 1,
         "name": "Lake Casandra",
@@ -429,7 +429,7 @@ export const locations = [
     }
 ];
 
-export const users = [
+const users = [
     {
         "id": 1,
         "username": "Strawberry6",
@@ -557,7 +557,7 @@ export const users = [
     }
 ];
 
-export const participants = [
+const participants = [
     {
         "id": 1,
         "user_id": 1,
@@ -809,3 +809,5 @@ export const participants = [
         "event_id": 12
     }
 ];
+
+module.exports = { users, events, participants, locations };
